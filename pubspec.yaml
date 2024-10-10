@@ -27,10 +27,10 @@ flutter:
 
   # The following section lists assets such as images, fonts, etc.
   assets:
-    - assets/images/plumbing.png
-    - assets/images/electrical.png
-    - assets/images/cleaning.png
-    - assets/images/painting.png
+    - assets/images/plumbing.jpeg
+    - assets/images/electrical.jpeg
+    - assets/images/cleaning.jpg
+    - assets/images/painting.jpg
     # Add more images as needed, or remove unused ones
 
   uses-material-design: true
