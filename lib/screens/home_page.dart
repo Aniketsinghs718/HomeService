@@ -4,10 +4,10 @@ import '../widgets/drawer_menu.dart';
 
 class HomePage extends StatelessWidget {
   final List<Map<String, String>> categories = [
-    {'name': 'Plumbing', 'image': 'assets/images/plumbing.png'},
-    {'name': 'Electrical', 'image': 'assets/images/electrical.png'},
-    {'name': 'Cleaning', 'image': 'assets/images/cleaning.png'},
-    {'name': 'Painting', 'image': 'assets/images/painting.png'},
+    {'name': 'Plumbing', 'image': 'assets/images/plumbing.jpeg'},
+    {'name': 'Electrical', 'image': 'assets/images/electrical.jpeg'},
+    {'name': 'Cleaning', 'image': 'assets/images/cleaning.jpg'},
+    {'name': 'Painting', 'image': 'assets/images/painting.jpg'},
   ];
 
   @override

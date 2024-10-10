@@ -17,7 +17,7 @@ class ServiceDetailPage extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              'assets/images/${service.name.toLowerCase()}.png', // Using dynamic image based on service
+              'assets/images/${service.name.toLowerCase()}.jpeg', // Using dynamic image based on service
               fit: BoxFit.cover,
               height: 250,
               width: double.infinity,

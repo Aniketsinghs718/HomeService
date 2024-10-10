@@ -16,14 +16,14 @@ class ServiceListPage extends StatelessWidget {
     if (category == 'Plumbing') {
       services = DataService.getPlumbingServices();
       serviceImages = [
-        'assets/images/plumbing.png',
-        'assets/images/plumbing.png'
+        'assets/images/plumbing.jpeg',
+        'assets/images/plumbing.jpeg'
       ];
     } else if (category == 'Electrical') {
       services = DataService.getElectricalServices();
       serviceImages = [
-        'assets/images/electrical.png',
-        'assets/images/electrical.png'
+        'assets/images/electrical.jpeg',
+        'assets/images/electrical.jpeg'
       ];
     } else {
       services = [];
