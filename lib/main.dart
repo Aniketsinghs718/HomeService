@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-import 'screens/home_page.dart';
+import 'splash_screen.dart';
 
 void main() {
-  runApp(HomeServiceApp());
+  runApp(MyApp());
 }
 
-class HomeServiceApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Home Service App',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      title: 'Home Services App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: SplashScreen(), // Start with the Splash Screen
     );
   }
 }
